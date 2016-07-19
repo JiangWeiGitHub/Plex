@@ -70,10 +70,4 @@
   2. docker run --name=plex --net=host -e VERSION=latest -v /home/winsun/libray:/config -v /home/winsun/Media/Movies:/data/movies:ro -v /home/winsun/Media/Music:/data/music:ro -v
  /home/winsun/Media/Photo:/data/photo:ro -v /home/winsun/Media/TV\ Shows:/data/tvshows:ro linuxserver/plex
  
-  3. register user
-  ```
-  
-  wei.jiang
-  1234qwer
-  
-  ```
+  3. register a new user at first use
